@@ -1,0 +1,6 @@
+{
+  "name": "LegacyLock",
+  "description": "Your Digital Legacy, Protected. A secure, comprehensive digital legacy management system for organizing important digital assets, beneficiaries, and legacy directives with controlled inheritance workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,338 @@
+{
+  "users": [
+    {
+      "id": "usr_eleanor_vance_01",
+      "email": "eleanor@example.com",
+      "fullName": "Eleanor Vance",
+      "role": "owner",
+      "passwordHash": "$2b$10$MEwST4K36Om3KKTaMOUOjOQ4H1Cl.oEKoeBDg4Cd3aewWU9DrHQdK",
+      "avatarUrl": "/src/assets/images/avatar_primary_user_1791724299537.jpg",
+      "createdAt": "2025-11-15T09:00:00.000Z",
+      "lastLoginAt": "2026-10-11T13:36:53.441Z"
+    },
+    {
+      "id": "usr_reviewer_sterling_02",
+      "email": "reviewer@example.com",
+      "fullName": "Arthur Sterling (Designated Reviewer)",
+      "role": "reviewer",
+      "passwordHash": "$2b$10$MEwST4K36Om3KKTaMOUOjOR5TMsB8WkRRJrVBaTna4zN7hHl82csK",
+      "createdAt": "2025-10-01T08:00:00.000Z",
+      "lastLoginAt": "2026-10-11T13:36:00.638Z"
+    },
+    {
+      "id": "usr_marcus_vance_03",
+      "email": "marcus@example.com",
+      "fullName": "Marcus Vance",
+      "role": "beneficiary",
+      "passwordHash": "$2b$10$MEwST4K36Om3KKTaMOUOjOmnYvlBlAQ3og43lEbh0olljFRVSdnRO",
+      "avatarUrl": "/src/assets/images/avatar_beneficiary_marcus_1791724314584.jpg",
+      "createdAt": "2025-12-01T10:00:00.000Z",
+      "lastLoginAt": "2026-10-11T13:36:00.638Z"
+    }
+  ],
+  "assets": [
+    {
+      "id": "ast_memo_001",
+      "userId": "usr_eleanor_vance_01",
+      "title": "Estate Planning Memorandum & Asset Map (2026)",
+      "description": "Comprehensive overview of family trust, real estate holdings, and corporate equity directives.",
+      "category": "Documents",
+      "tags": [
+        "estate",
+        "legal",
+        "trust",
+        "priority"
+      ],
+      "fileName": "estate_planning_memo.pdf",
+      "fileSize": 245760,
+      "mimeType": "application/pdf",
+      "filePath": "/app/applet/data/uploads/estate_planning_memo.pdf",
+      "previewUrl": "/api/assets/ast_memo_001/download",
+      "createdAt": "2026-01-10T14:30:00.000Z",
+      "updatedAt": "2026-01-10T14:30:00.000Z"
+    },
+    {
+      "id": "ast_photo_002",
+      "userId": "usr_eleanor_vance_01",
+      "title": "Family Archival Photographs & 2024 Reunion Album",
+      "description": "Curated high-resolution scans of family archives, childhood memories, and ancestral genealogy.",
+      "category": "Photos & Memories",
+      "tags": [
+        "family",
+        "memories",
+        "photos",
+        "archive"
+      ],
+      "fileName": "avatar_primary_user.jpg",
+      "fileSize": 1048576,
+      "mimeType": "image/jpeg",
+      "filePath": "/app/applet/data/uploads/estate_planning_memo.pdf",
+      "previewUrl": "/src/assets/images/avatar_primary_user_1791724299537.jpg",
+      "createdAt": "2026-01-15T11:20:00.000Z",
+      "updatedAt": "2026-01-15T11:20:00.000Z"
+    },
+    {
+      "id": "ast_accounts_003",
+      "userId": "usr_eleanor_vance_01",
+      "title": "Primary Banking & Vanguard Portfolio Account Directives",
+      "description": "Account identifiers, institution branches, and designated beneficiary transfer instructions.",
+      "category": "Account Records",
+      "tags": [
+        "finances",
+        "vanguard",
+        "banking"
+      ],
+      "fileName": "financial_directives_summary.pdf",
+      "fileSize": 182400,
+      "mimeType": "application/pdf",
+      "filePath": "/app/applet/data/uploads/estate_planning_memo.pdf",
+      "previewUrl": "/api/assets/ast_accounts_003/download",
+      "createdAt": "2026-02-01T09:15:00.000Z",
+      "updatedAt": "2026-02-01T09:15:00.000Z"
+    },
+    {
+      "id": "ast_notes_004",
+      "userId": "usr_eleanor_vance_01",
+      "title": "Personal Letter to Marcus & Sophia regarding the Coastal Cottage",
+      "description": "Personal reflections, fond memories of summers at the coast, and wishes for future stewardship.",
+      "category": "Personal Notes",
+      "tags": [
+        "personal",
+        "letter",
+        "cottage"
+      ],
+      "fileName": "letter_to_children.txt",
+      "fileSize": 34500,
+      "mimeType": "text/plain",
+      "filePath": "/app/applet/data/uploads/crypto_safe_deposit_instructions.txt",
+      "previewUrl": "/api/assets/ast_notes_004/download",
+      "createdAt": "2026-02-14T16:45:00.000Z",
+      "updatedAt": "2026-02-14T16:45:00.000Z"
+    },
+    {
+      "id": "ast_crypto_005",
+      "userId": "usr_eleanor_vance_01",
+      "title": "Hardware Wallet Storage Guide & Safety Deposit Key Details",
+      "description": "Physical vault coordinates and access protocols for Coldcard key backup.",
+      "category": "Account Records",
+      "tags": [
+        "security",
+        "hardware-wallet",
+        "deposit-box"
+      ],
+      "fileName": "crypto_safe_deposit_instructions.txt",
+      "fileSize": 42100,
+      "mimeType": "text/plain",
+      "filePath": "/app/applet/data/uploads/crypto_safe_deposit_instructions.txt",
+      "previewUrl": "/api/assets/ast_crypto_005/download",
+      "createdAt": "2026-03-01T10:00:00.000Z",
+      "updatedAt": "2026-03-01T10:00:00.000Z"
+    }
+  ],
+  "beneficiaries": [
+    {
+      "id": "ben_marcus_01",
+      "userId": "usr_eleanor_vance_01",
+      "fullName": "Marcus Vance",
+      "email": "marcus@example.com",
+      "relationship": "Son & Designated Executor",
+      "phone": "+1 (555) 234-8901",
+      "notes": "Primary executor named in family trust. Authorized to initiate legacy succession review upon verified need.",
+      "assignedAssetIds": [
+        "ast_memo_001",
+        "ast_photo_002",
+        "ast_notes_004"
+      ],
+      "assignedCategories": [
+        "Documents",
+        "Photos & Memories",
+        "Personal Notes"
+      ],
+      "futureAccessLevel": "full",
+      "status": "confirmed",
+      "avatarUrl": "/src/assets/images/avatar_beneficiary_marcus_1791724314584.jpg",
+      "createdAt": "2025-12-05T12:00:00.000Z"
+    },
+    {
+      "id": "ben_sophia_02",
+      "userId": "usr_eleanor_vance_01",
+      "fullName": "Dr. Sophia Lin",
+      "email": "sophia.lin@example.com",
+      "relationship": "Sister & Medical Trustee",
+      "phone": "+1 (555) 876-5432",
+      "notes": "Consulting physician for healthcare directives and co-trustee of family educational fund.",
+      "assignedAssetIds": [
+        "ast_memo_001",
+        "ast_accounts_003"
+      ],
+      "assignedCategories": [
+        "Documents",
+        "Account Records"
+      ],
+      "futureAccessLevel": "specific_assets",
+      "status": "confirmed",
+      "avatarUrl": "/src/assets/images/avatar_beneficiary_sophia_1791724329816.jpg",
+      "createdAt": "2025-12-10T14:30:00.000Z"
+    }
+  ],
+  "instructions": [
+    {
+      "id": "ins_personal_001",
+      "userId": "usr_eleanor_vance_01",
+      "beneficiaryId": "ben_marcus_01",
+      "type": "personal_message",
+      "title": "A Message to Marcus on Integrity and Resilience",
+      "content": "Marcus, remember that wealth is not merely numbers on an account ledger; it is the time you share with those you love and the integrity with which you treat others. Take care of your sister and keep the coastal garden alive.",
+      "isLockedUntilInheritance": true,
+      "createdAt": "2026-01-20T15:00:00.000Z",
+      "updatedAt": "2026-01-20T15:00:00.000Z"
+    },
+    {
+      "id": "ins_directive_002",
+      "userId": "usr_eleanor_vance_01",
+      "beneficiaryId": null,
+      "type": "general_directive",
+      "title": "Digital Footprint Closure & Subscription Cancellation Protocol",
+      "content": "Please execute immediate cancellation of ongoing SaaS subscriptions (AWS, GitHub, Google One, Bloomberg Terminal). Export the Google Photos archive and transfer ownership of family domains to Marcus.",
+      "isLockedUntilInheritance": true,
+      "createdAt": "2026-02-05T11:00:00.000Z",
+      "updatedAt": "2026-02-05T11:00:00.000Z"
+    },
+    {
+      "id": "ins_distribution_003",
+      "userId": "usr_eleanor_vance_01",
+      "beneficiaryId": "ben_sophia_02",
+      "type": "asset_distribution",
+      "title": "Allocation of Rare Book Collection & Archival Manuscripts",
+      "content": "The vintage scientific monographs and personal correspondence in the study library are bequeathed to Dr. Sophia Lin for perpetual donation to the University Rare Manuscripts reading room.",
+      "isLockedUntilInheritance": true,
+      "createdAt": "2026-02-18T16:20:00.000Z",
+      "updatedAt": "2026-02-18T16:20:00.000Z"
+    }
+  ],
+  "checkInSettings": [
+    {
+      "id": "chk_settings_01",
+      "userId": "usr_eleanor_vance_01",
+      "frequencyDays": 30,
+      "gracePeriodDays": 7,
+      "lastCheckInAt": "2026-10-08T13:36:00.638Z",
+      "nextCheckInDue": "2026-11-07T13:36:00.638Z",
+      "status": "active",
+      "reminderEmail": "eleanor@example.com",
+      "notifyBeneficiariesOnMissed": true
+    }
+  ],
+  "checkInEvents": [
+    {
+      "id": "chk_evt_001",
+      "userId": "usr_eleanor_vance_01",
+      "eventType": "user_confirmed",
+      "timestamp": "2026-10-08T13:36:00.638Z",
+      "ipOrOrigin": "192.168.1.45 (Owner Session)",
+      "notes": "Periodic check-in verified successfully. Next cycle refreshed."
+    },
+    {
+      "id": "chk_evt_002",
+      "userId": "usr_eleanor_vance_01",
+      "eventType": "user_confirmed",
+      "timestamp": "2026-09-08T13:36:00.638Z",
+      "ipOrOrigin": "192.168.1.45 (Owner Session)",
+      "notes": "Check-in confirmed on schedule."
+    }
+  ],
+  "inheritanceRequests": [
+    {
+      "id": "req_inheritance_demo_01",
+      "userId": "usr_eleanor_vance_01",
+      "beneficiaryId": "ben_marcus_01",
+      "beneficiaryEmail": "marcus@example.com",
+      "beneficiaryName": "Marcus Vance",
+      "status": "Awaiting review",
+      "evidenceMetadata": {
+        "declarationType": "Simulated Incapacitation / Absence Declaration",
+        "legalAttestationNotes": "Prototype demonstration filing: Marcus Vance has submitted simulated attestation per protocol v2.4. Awaiting verification review from Arthur Sterling.",
+        "certificateReference": "SIM-NOTARY-2026-7894",
+        "submittedAt": "2026-10-10T13:36:00.638Z"
+      },
+      "createdAt": "2026-10-10T13:36:00.638Z",
+      "updatedAt": "2026-10-10T13:36:00.638Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud_1791725813442",
+      "userId": "usr_eleanor_vance_01",
+      "userEmail": "eleanor@example.com",
+      "action": "LOGIN_SUCCESS",
+      "details": "User successfully logged in via credentials",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-11T13:36:53.442Z"
+    },
+    {
+      "id": "aud_001",
+      "userId": "usr_eleanor_vance_01",
+      "userEmail": "eleanor@example.com",
+      "action": "LOGIN_SUCCESS",
+      "details": "User authenticated via local credential session",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-11T13:26:00.638Z"
+    },
+    {
+      "id": "aud_002",
+      "userId": "usr_eleanor_vance_01",
+      "userEmail": "eleanor@example.com",
+      "action": "CHECKIN_CONFIRMED",
+      "details": "User confirmed OK status. Reset cadence to 30 days.",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-08T13:36:00.638Z"
+    },
+    {
+      "id": "aud_003",
+      "userId": "usr_eleanor_vance_01",
+      "userEmail": "eleanor@example.com",
+      "action": "ASSET_UPLOAD",
+      "details": "Uploaded \"Estate Planning Memorandum & Asset Map (2026)\" (240 KB)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-01-10T14:30:00.000Z"
+    },
+    {
+      "id": "aud_004",
+      "userId": "usr_marcus_vance_03",
+      "userEmail": "marcus@example.com",
+      "action": "INHERITANCE_REQUEST_SUBMITTED",
+      "details": "Beneficiary Marcus Vance submitted simulated inheritance claim for review queue",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-10T13:36:00.638Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_001",
+      "userId": "usr_eleanor_vance_01",
+      "title": "Check-in Cycle Active",
+      "message": "Your next periodic safety check-in is scheduled in 27 days.",
+      "type": "info",
+      "read": false,
+      "createdAt": "2026-10-08T13:36:00.638Z"
+    },
+    {
+      "id": "notif_002",
+      "userId": "usr_eleanor_vance_01",
+      "title": "Beneficiary Confirmed",
+      "message": "Marcus Vance confirmed recipient contact details and accepted designated executor role.",
+      "type": "success",
+      "read": true,
+      "createdAt": "2025-12-06T09:00:00.000Z"
+    },
+    {
+      "id": "notif_003",
+      "userId": "usr_reviewer_sterling_02",
+      "title": "Review Queue Alert",
+      "message": "A simulated inheritance request from Marcus Vance is awaiting review.",
+      "type": "warning",
+      "read": false,
+      "createdAt": "2026-10-10T13:36:00.638Z"
+    }
+  ]
+}
